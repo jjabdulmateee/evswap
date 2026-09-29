@@ -1,0 +1,20 @@
+packages:
+  "framer-motion": "Scroll animations, entry effects, and micro-interactions"
+  "react-hook-form": "Form state management for contact section"
+  "@hookform/resolvers": "Zod validation resolver for forms"
+  "zod": "Type-safe schema validation"
+  "clsx": "Classname merging utility"
+  "tailwind-merge": "Tailwind class conflict resolution"
+
+images:
+  - path: "artifacts/evswap/public/images/hero-ev.png"
+    description: "High-end 3D rendering of an electric scooter and a modern sleek battery swapping station, glowing electric blue and neon green accents, clean studio lighting, highly detailed, photorealistic."
+    aspect_ratio: "16:9"
+  - path: "artifacts/evswap/public/images/sustainability.png"
+    description: "Abstract eco-friendly background, glowing green leaf patterns integrating with clean energy digital circuits, modern tech aesthetic, soft volumetric lighting."
+    aspect_ratio: "16:9"
+
+notes:
+  - Completely static landing page, no backend API needed.
+  - The contact form uses a mocked mutation hook (simulated network request) with a local success state.
+  - Using framer-motion heavily for an elevated, premium feel.
